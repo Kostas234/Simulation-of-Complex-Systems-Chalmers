@@ -1,0 +1,14 @@
+N = 1000;
+numOfParticles = 100;
+DT = 0.22;
+DR = 0.16;
+v = 0;
+omega = 0;
+phi = zeros(N,numOfParticles);
+x = zeros(N,numOfParticles);
+y = zeros(N,numOfParticles);
+x0 = [-75 -75 75 75 1 2 3 4 5 6];
+y0 = [-75 75 75 -75 1 2 3 4 5 6];
+t = 0.001;
+time = (1:N).*t;
+iterations = 200;
